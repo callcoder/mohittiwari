@@ -22,7 +22,8 @@ echo '<script>alert("Successfully logged in")</script>';
 window.location.href="appt1.php"</script>
 <?php
 }
-else {
+else 
+{
 	echo '<script>alert("Invalid user")</script>';
 }
 }
